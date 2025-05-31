@@ -1,0 +1,4 @@
+node_modules/
+skyblock-api/*.json
+config.json
+package-lock.json
