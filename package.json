@@ -1,5 +1,30 @@
 {
   "dependencies": {
     "discord.js": "^14.19.3"
-  }
+  },
+  "name": "skyblock-api",
+  "version": "1.0.0",
+  "description": "A bot and soon package to view skyblock stats",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silver-3/Skyblock-API.git"
+  },
+  "keywords": [
+    "hypixel",
+    "skyblock",
+    "stats",
+    "discord",
+    "bot"
+  ],
+  "author": ".silver_3.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silver-3/Skyblock-API/issues"
+  },
+  "homepage": "https://github.com/Silver-3/Skyblock-API#readme"
 }
