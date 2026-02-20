@@ -19,9 +19,9 @@ module.exports.run = async (interaction, client) => {
         });
 
         require('../../handlers/commands').load(client);
-        interaction.reply({ embeds: [client.embed(interaction, `✅ Reloaded ${client.commands.size} commands`)], flags: Discord.MessageFlags.Ephemeral });
+        interaction.reply({ content: `✅ Reloaded ${client.commands.size} commands`, flags: Discord.MessageFlags.Ephemeral });
     } catch (error) {
-        interaction.reply({ embeds: [client.embed(interaction, `❌ Failed to reload commands, check console for details.`)], flags: Discord.MessageFlags.Ephemeral });
+        interaction.reply({ content: `❌ Failed to reload commands, check console for details`, flags: Discord.MessageFlags.Ephemeral });
         console.error(`[SLASH-COMMANDS] Error reloading commands:`, error);
     }
 }

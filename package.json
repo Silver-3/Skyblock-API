@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "discord.js": "^14.19.3"
+    "discord.js": "^14.19.3",
+    "prismarine-nbt": "^2.8.0"
   },
   "name": "skyblock-api",
   "version": "1.0.0",
   "description": "A bot and soon package to view skyblock stats",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

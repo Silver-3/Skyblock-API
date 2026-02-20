@@ -56,6 +56,8 @@ module.exports.run = async (interaction, client) => {
 
     const api = new skyblockAPI(client.config.apiKey);
     const data = await api.getPlayerProfile(username, profile);
+
+    console.log(data)
     
     interaction.reply(`${username} has ${formatNumber(data.currencies.coin_purse)} in their purse`);
 }
